@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raghav website/</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <style type="text/css">*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body{
+  font-size: 20px;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Chelsea Market', cursive;
+}
+
+header{
+  background-image: url('https://vjloopsfarm.com/wp-content/uploads/2016/10/DJ-Walls-Background-LIMEART-VJ-Loop_003.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+.row{
+  max-width:  1180px;
+  margin: 0 auto;
+}
+.logo{
+  height: 170px;
+  width: 270px;
+  float: left;
+  margin-top: 20px;
+}
+.main-nav{
+  float: right;
+  margin-top: 60px;
+}
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+
+}
+
+.main-nav li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 100;
+}
+.main-nav li a:hover{
+  border-bottom: 2px solid #bf55ec;
+}
+.main-content-header{
+  
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+}
+h1{
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+
+.btn-full{
+  background-color: transparent;
+  margin-right: 15px;
+  color: #bf55ec;
+  border: 1px solid #bf55ec;
+
+}
+.btn-full:hover{
+  background-color: #fff;
+}
+.btn-nav{
+  background-color: transparent;
+  margin-right: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+
+}
+.btn-nav:hover{
+  background-color: #bf55ec;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* how to bckgrnfd img*/
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: 
+    
+    url('https://vjloopsfarm.com/wp-content/uploads/2019/03/Red-Strobing-Abstract-multicolored-ethnic-motion-graphics-background.-VJ-Loop-LIMEART_003.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #purple;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
+  <header>
+  <nav>
+    <div class="row clearfix"></div>
+    <img src=data:image/jpeg;base64,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t/mWnBwJkcB6AnX1P21nW/RfEGlZvxUtvy/JZcZGDXyrGwwSPJDoWNb07A+p2T+VVuJchZhDkq9iMy08hTfBKweYdomN34dr91XkQabm73CuVW35jIchymPs2Io2z0mVTI1pa0DTSO3T23+Vx4fyDitGvncBlJ74wdySKWKcRD2r+gg9LgNgB2lnO02g1a/4p4Kxkf4k7hdaa9AQ2rPLN5Mb+gkdPmAq/mOfWcvxbI0rhLshkcmLM8gGmNiaxoa1v00W+qpCINBbyHjXLqdWHmfvVDJVIREzKVWdYnaOzRIzW9+o/ZSGbyfCuVTQ3chn8hjLEFZtMxRUy9sjGEgOGvIOHfpKy5fdlBoPGeRcf4y/k8GPsW5YLuP9hUmmh058nz2B+kd/2VDpzmrbgsBocYpGv6T5HR3pct+i+INOz9vgvJsnZzVzkWUozXAx09JtMv6S1oGgfIga7LOsiKgvTDHumdUDv5TpgA8t9QOy8++2l8PdAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/2Q== align="logo" class="logo">
+   
+    <ul class="main-nav">
+      <li><a href="https://happy-easley-feb3cb.netlify.app/">DELIVERY
+      </a></li>
+      >
+<li></li>
+
+<li><a href="https://jovial-bhaskara-8f26c5.netlify.app">CONTACT
+      </a></li>
+
+
+<li><a href="https://lucid-bhabha-673738.netlify.app/">NEW ARRIVALS
+      </a></li>
+
+<li><a href="https://jovial-pare-9fe933.netlify.app">SIGNUP
+      </a></li>
+<li> <a href="#" id="helloo" style="text-align: center; text-shadow:2px 1px;"  style="text-transform: 
+capitalize;">Delivery range?</li> 
+                                                <!--here i am telling that what should be displayed on the browser-->
+            
+                                                <!-- here we have just mentioned that what exactly are we doing like what is the 
+program about in our own way jaise idhar apan ne bass bataya ki 18 plus nahi hoga to kahi ar source dhunde firr usko 
+style kardiya tag ko hi inline css ki madad se -->
+
+
+                                               <input type="number"  id="heyaa" min="18" required>
+                                                 <!--ab batana bhi to padega naa ki kaise input apan actually me lena chate hai ki 
+atleast jo aaye vo khaa likhega apna age yahi se apan ne bataya ki user aaya ar usne apni age likhi -->
+            <button type="button" class="button-type" style="width: 40px color: blue;" onclick="myFunction()">click here</button>
+                                                 <!-- what is happemimg here don't wprry it's just we are making an buttons , means in 
+the last step we have made user to write the value but what then , we need funcionalit thus we are now using script--> 
+                  
+            <script type="text/javascript">
+                                                 //what happens now hat we are just insitialising an function that is in simple terms a group of statement
+            function myFunction(){
+
+            var message, x; 
+                                               /* kuch nahi bass simple do variable define kiye ek mesg ke liye ki  
+messgae kyaa ho ar ek x uska bhi use karenge */
+            message = document.getElementById("helloo");
+                                                 // idhar apan ne kyaa kiyaa jo first id banaya usko messgafe me le aaye apan ko kyaa natak hona chiaye kaise khelna hai code ke saath
+
+            message.innerHTML = "";
+
+            x = document.getElementById("heyaa").value;
+                                                  //idhar we hav e just asked pr fetched id 
+            try
+                                                  // from try method basically hota to js kaa error type hai ye jo test karta hai ek block of code ko 
+              {
+                 if(x == "") throw "connecting";
+                                                   //throw bhi same error  hi hai js ka but apan ko khud ke error create karne deta hai 
+
+                 if(x < 18) throw " time flies who knows ";
+                 
+                 if(x > 18 ) throw "  soon we'll see you";
+                }
+                    
+                    catch(err){
+                      message.innerHTML = "hey nice to meet you " + err;// now you might understand why did we used two id catch will handle the error 
+                    }
+                    }
+                                                                                       </script>
+
+                                                                                               </body>
+
+
+
+
+    </ul>
+  </nav>
+<div class="main-content-header">
+<h1>WELCOME TO <span style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">OUR WEBSITE</span>.<br> GET COOL OFFERS AND VOUCHERS</h1>
+<a href="https://agitated-dijkstra-1ee386.netlify.app/" class="btn btn-full">ORDER</a>
+<a href="https://lucid-bhabha-673738.netlify.app/" class="btn btn-nav">new arrivals</a>
+</div>
+
+
+</header>
+<div class="container">
+  <header class="header">
+   
+    <h3 id="description" class="description text-center"  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">
+      Help us improve the platform
+    </h3>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name"  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email"  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      
+      
+    <div class="form-group">
+      <p  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"> recommend to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">
+        What is your source?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Challenges</option>
+      
+        <option value="com">Society</option>
+        <option value="openSource">Open Source</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">
+        Quality?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Station Projects</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        /> Mansa Projects</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />14 no. projects</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        />kk projects</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />Open Source Trip</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />NANDA projects</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        />bvfr project</label
+      >
+      <label  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"
+        ><input
+          name="prefer"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />Goldy  Meetups</label
+      >
+      
+    </div>
+
+    <div class="form-group">
+      <p  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">Suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your thoughts here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+<div>
+  
+</div>
+</body>
+<footer>
+  <div>
+    <h4 style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;" >raghav0162khandelwal/9967781742</h4>
+  </div>
+</footer>
+</html>
